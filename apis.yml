@@ -1,7 +1,23 @@
 aid: miim
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/miim.png
 name: miim
-description: miim is a company surfaced as a portfolio company of balderton-capital and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: 'mi|im (pronounced "mime", for Movement Imaging | Intelligence Matters) develops proprietary
+  machine-learning and computer-vision technology that turns movement into intelligence for retail. Its
+  movement-imaging platform analyzes and optimizes how people flow through physical space, helping retailers
+  improve customer experience, drive operational efficiency, and detect and respond to events. Surfaced as
+  a portfolio company of balderton-capital; no public API, developer portal, or documentation was found
+  during enrichment (the miim.ai domain currently returns a parked WordPress error page).'
 url: https://raw.githubusercontent.com/api-evangelist/miim/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Retail
+- Computer Vision
+- Movement Intelligence
+- Analytics
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +42,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/miim-domain-security.yml
 - type: Website
   url: https://www.miim.ai/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/miim-inc
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
