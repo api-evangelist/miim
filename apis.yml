@@ -42,7 +42,7 @@ modified: '2026-07-20'
 tags:
 - Company
 - Retail
-- Computer-Vision
+- Computer Vision
 - Movement Intelligence
 - Analytics
 - Artificial Intelligence
@@ -53,6 +53,7 @@ tags_raw:
 - Movement Intelligence
 - Analytics
 - Artificial Intelligence
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
